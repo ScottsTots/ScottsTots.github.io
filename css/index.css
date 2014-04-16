@@ -3,6 +3,9 @@ html, body {
     width: 100%;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     letter-spacing: 1px;
+    
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 nav {
