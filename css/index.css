@@ -12,6 +12,13 @@ nav {
 }
 
 /*  Hero n' Stuff   */
+.coming-soon {
+    margin-top: 25px;
+    font-size: 1.5em;
+    color: white;
+    opacity: .8;
+}
+
 .hero {
     height: 90%;
     background-image: radial-gradient(
