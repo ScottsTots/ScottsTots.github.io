@@ -2,6 +2,11 @@ html, body {
     height: 100%;
     width: 100%;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    letter-spacing: 1px;
+}
+
+nav {
+    border-bottom: 1px gray dashed !important;
 }
 
 /*  Hero n' Stuff   */
@@ -51,4 +56,52 @@ html, body {
 /*  Features n' Stuff   */
 .feature-sect {
     text-align: center;
+    border-top: 5px gray dashed;
+}
+
+/*  Creator Sect   */
+.creator-sect {
+    text-align: center;
+    border-top: 5px gray dashed;
+}
+
+.creator-img {
+    border-radius: 50%;
+    border: 1px gray dashed;
+    height: 165px;
+    width: 165px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.creator-img:hover {
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+
+}
+
+.name {
+    font-size: 2em;
+    padding: 10px 0px;
+}
+
+.about {
+    width: 80%;
+    margin: auto;
+}
+
+.creator {
+    padding: 20px 0px;
+}
+
+/*   Generic Section Stuff   */
+.section-title {
+    font-size: 5em;
+    padding: 15px 0px;
 }
