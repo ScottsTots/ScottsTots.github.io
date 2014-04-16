@@ -1,0 +1,54 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+/*  Hero n' Stuff   */
+.hero {
+    height: 90%;
+    background-image: radial-gradient(
+      circle at bottom right,
+      #438AA6,
+      #2980b9
+    );
+    
+    display: table;
+    width: 100%;
+}
+
+.hero-info {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    /*  Padding should be half the navbar  */
+    padding-top: 50px;          
+}
+
+.hero-title {
+    color: white;
+    font-size: 6em;
+    padding: .2em;
+    
+}
+
+.hero-subtitle {
+    color: white;
+    font-size: 2em;
+    padding: .2em;
+}
+
+.hero-text {
+    padding-bottom: 2em;
+}
+
+.hero-img {
+    height: 550px;   
+    padding-bottom: 30px;
+}
+
+
+/*  Features n' Stuff   */
+.feature-sect {
+    text-align: center;
+}
