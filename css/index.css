@@ -139,3 +139,11 @@ nav {
     width: 95%;
     letter-spacing: 1.5px;
 }
+
+.footer {
+    padding-top: 70px;
+    padding-bottom: 5px;
+    font-size: .8em;
+    text-align: center;
+    opacity: .7;
+}
