@@ -58,7 +58,7 @@ nav {
 
 .hero-img {
     height: 550px;   
-    padding-bottom: 30px;
+    padding: 15px 0px;
 }
 
 
@@ -75,7 +75,29 @@ nav {
 }
 
 .feat {
-    height: 200px;   
+    height: 200px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.fa-wrap {
+    background-image: radial-gradient(
+      circle at bottom right,
+      #438AA6,
+      #2980b9
+    );
+    height: 125px;
+    width: 125px;
+    margin: auto;
+    border-radius: 50%;
+    display: table;
+    border: 1px dashed gray;
+}
+
+.fa-wrap i {
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
 }
 
 .tm-info {
