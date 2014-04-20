@@ -156,6 +156,7 @@ nav {
 .screenshot img {
     width: 90%;
     padding: 25px;
+    max-width: 300px;
 }
 
 
