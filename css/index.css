@@ -8,7 +8,7 @@ html, body {
 }
 
 nav {
-    border-bottom: 1px gray dashed !important;
+    border-bottom: 1px solid dashed !important;
 }
 
 /*  Hero n' Stuff   */
@@ -65,7 +65,7 @@ nav {
 /*  Features n' Stuff   */
 .feature-sect {
     text-align: center;
-    border-top: 5px gray dashed;
+    background-color: #EEE4E5;
 }
 
 .feature-name {
@@ -91,7 +91,7 @@ nav {
     margin: auto;
     border-radius: 50%;
     display: table;
-    border: 1px dashed gray;
+    border: 1px solid gray;
     
     cursor: pointer;
     box-shadow: inset 0 0 1px 230px rgba(0,0,0,0.6), inset 0 0 0 0px #1c252c;
@@ -134,12 +134,12 @@ nav {
 /*  Creator Sect   */
 .creator-sect {
     text-align: center;
-    border-top: 5px gray dashed;
+    background-color: #EEE4E5;
 }
 
 .creator-img {
     border-radius: 50%;
-    border: 1px gray dashed;
+    border: 1px solid dashed;
     height: 165px;
     width: 165px;
     -webkit-transition: all 0.5s ease;
@@ -173,19 +173,27 @@ nav {
 }
 
 /*  Screenshot Section    */
-.screenshot-sect {
-    border-top: dashed gray 5px;  
+.screenshot-sect { 
     text-align: center;
+    color: #F0F0F0;
+    background-color: #26414C;
 }
 
 .screenshot img {
     max-width: 250px;
-    border: 1px solid gray;
+    border: 1px solid #F0F0F0;
     margin: 20px;
 }
 
 
 /*   Generic Section Stuff   */
+
+.dl-sect {
+    text-align: center;
+    background-color: #DE3019;
+    color: #E5DED6;
+}
+
 .section-title {
     font-size: 5em;
     padding: 40px 0px;
@@ -195,12 +203,16 @@ nav {
     font-size: 1.5em;
     width: 95%;
     letter-spacing: 1.5px;
+    padding-bottom: 35px;
 }
 
 .footer {
-    padding-top: 70px;
+    padding-top: 35px;
     padding-bottom: 5px;
-    font-size: .8em;
+    font-size: 1em;
     text-align: center;
-    opacity: .7;
+    opacity: .9;
+    color: #E5DED6;
+
+    background-color: #232E38;
 }
